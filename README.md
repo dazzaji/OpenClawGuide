@@ -16,6 +16,38 @@ xcode-select --install 2>/dev/null || echo "Xcode CLT already installed or insta
 which brew >/dev/null 2>&1 || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+That’s expected on a fresh Mac—you don’t have Homebrew yet. Here’s the exact fix; just continue from where you are.
+
+## 1. Install Homebrew (since it’s missing)
+
+In Terminal, run:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+
+Let it finish; it may ask for your Mac password (for /usr/local or /opt/homebrew).
+
+## 2. Add Homebrew to your PATH (Apple Silicon default)
+
+Still in Terminal, run:
+
+```bash
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+
+Now confirm:
+
+```bash
+brew --version
+```
+
+
+If that prints a version number, Homebrew is installed correctly and you can go back to the Claude Code steps (starting with the `curl https://code.claude.com/install.sh | bash` command).
+
 
 On Apple Silicon, add Homebrew to PATH (if needed):
 
