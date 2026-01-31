@@ -1,4 +1,4 @@
-# OPENCLAW QUICK INSTALL AND USE
+# OPENCLAW QUICK [INSTALL AND USE GUIDE](https://dazzaji.github.io/OpenClawGuide/)
 
 ## A quick, easy, good setup plan for a clean MacBook (official-docs only)
 
