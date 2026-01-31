@@ -1,4 +1,4 @@
-# OPENCLAW QUICK [INSTALL AND USE GUIDE](https://dazzaji.github.io/OpenClawGuide/)
+# OPENCLAW QUICK [INSTALL & USE GUIDE](https://dazzaji.github.io/OpenClawGuide/)
 
 ____________
 
