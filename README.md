@@ -263,3 +263,7 @@ If you want the most frictionless Mac experience (permissions, launchd control, 
 [3]: https://docs.openclaw.ai/gateway?utm_source=chatgpt.com "Index - OpenClaw"
 [4]: https://docs.openclaw.ai/macos?utm_source=chatgpt.com "Macos - OpenClaw"
 [5]: https://docs.openclaw.ai/install/installer?utm_source=chatgpt.com "Installer - OpenClaw"
+
+_____________
+
+## ENJOY ME IN MY HOMETOWN [GITHUB REPO](https://github.com/dazzaji/OpenClawGuide/blob/main/README.md)
