@@ -29,7 +29,42 @@ In Terminal, run:
 
 Let it finish; it may ask for your Mac password (for /usr/local or /opt/homebrew).
 
-## 2. Add Homebrew to your PATH (Apple Silicon default)
+### 1.1 Confirm Brew is working
+
+In Terminal:
+
+```bash
+brew --version
+```
+
+If you see `Homebrew 5.8.12` (or similar), Brew itself is fine. [mac.install](https://mac.install.guide/homebrew/3)
+
+### 1.2 Add Homebrew to PATH the *right* way
+
+Run exactly these two commands (they will create `~/.zprofile` if missing and set things up correctly):
+
+```bash
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+
+Now verify that your PATH contains Homebrew and that `brew` still works:
+
+```bash
+echo $PATH
+brew help
+```
+
+
+If both commands succeed (no “no such file or dir” messages), you’re good—go back to the Claude Code step:
+
+```bash
+curl -fsSL https://code.claude.com/install.sh | bash
+```
+
+
+## 1.3 Add Homebrew to your PATH (Apple Silicon default)
 
 Still in Terminal, run:
 
