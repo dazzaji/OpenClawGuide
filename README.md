@@ -100,7 +100,7 @@ Use the official install script (Anthropic has not removed it yet, but now also 
 
 ```bash
 # Official Claude Code installer for macOS / Linux / WSL
-curl -fsSL https://code.claude.com/install.sh | bash
+curl -fsSL https://claude.ai/install.sh | bash
 ```
 
 
